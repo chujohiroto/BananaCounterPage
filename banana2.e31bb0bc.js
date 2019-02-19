@@ -38537,7 +38537,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var initialState = {
-  count: 1000000000000000
+  count: 0
 };
 
 var reducer = function reducer() {
@@ -38656,7 +38656,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62836" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56248" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
